@@ -1,0 +1,62 @@
+<!DOCTYPE html5>
+<html lang=“ja”>
+
+<head>
+    <metahttp-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>音楽生成</title>
+	 <link rel="shortcut icon" href="image/nazobu.jpg" >
+	<!-- jQuery本体の読み込み -->
+	 <link rel="stylesheet" href="index.css"　type="text/css" media="all">
+	 <script src="index.js" defer></script>
+
+<!-- ＃リンクのスムーズスクロール -->
+<script>
+$(function(){
+   // #で始まるリンクをクリックしたら実行されます
+   $('a[href^=#]').click(function() {
+      // スクロールの速度
+      var speed = 400; // ミリ秒で記述
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top;
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+   });
+});
+</script>
+
+</head>
+
+<body>
+
+<div class="main">
+	<p class="bun">下記のテキストボックスに</p>
+	<p class="bun">自由なプロンプトを入力してください。</p>
+	<p class="bun">入力された内容をもとに、</p>
+	<p class="bun">自動でAIが音楽を生成します。</p>
+</div>
+
+<div class="nyuryoku">
+	<p class="bun">
+	<textarea name="comment" cols="40" rows="8"></textarea >
+	</p>
+	<p class="bun">
+	<input type="button" value="生成する" onclick="tbox1()">
+	</p>
+
+<script>
+function tbox1(){
+var res = confirm("この内容で音楽を生成しますか？");
+     if ( res == true ){
+	 window.location.href = "loading.html";
+     }else{
+     }
+}
+</script>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="index.js"></script>
+  </body>
+

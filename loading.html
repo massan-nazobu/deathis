@@ -1,0 +1,65 @@
+<!DOCTYPE html5>
+<html lang=“ja”>
+
+<head>
+    <metahttp-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>音楽生成</title>
+	 <link rel="shortcut icon" href="image/nazobu.jpg" >
+	<!-- jQuery本体の読み込み -->
+	 <link rel="stylesheet" href="index.css"　type="text/css" media="all">
+	 <script src="index.js" defer></script>
+
+<!-- ＃リンクのスムーズスクロール -->
+<script>
+$(function(){
+   // #で始まるリンクをクリックしたら実行されます
+   $('a[href^=#]').click(function() {
+      // スクロールの速度
+      var speed = 400; // ミリ秒で記述
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href);
+      var position = target.offset().top;
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+   });
+});
+</script>
+
+<script>
+setTimeout(function(){
+  window.location.href = "complete.html";
+}, 5*1000);
+</script>
+
+</head>
+
+<body>
+
+<div class="main">
+	<div class="sk-circle">
+<div class="sk-circle1 sk-child"></div>
+<div class="sk-circle2 sk-child"></div>
+<div class="sk-circle3 sk-child"></div>
+<div class="sk-circle4 sk-child"></div>
+<div class="sk-circle5 sk-child"></div>
+<div class="sk-circle6 sk-child"></div>
+<div class="sk-circle7 sk-child"></div>
+<div class="sk-circle8 sk-child"></div>
+<div class="sk-circle9 sk-child"></div>
+<div class="sk-circle10 sk-child"></div>
+<div class="sk-circle11 sk-child"></div>
+<div class="sk-circle12 sk-child"></div>
+</div>
+
+<p>LOADING...</p>
+
+</div>
+
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="index.js"></script>
+  </body>
+

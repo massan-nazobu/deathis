@@ -1,22 +1,22 @@
 <!DOCTYPE html5>
-<html lang=gjah>
+<html lang=â€œjaâ€>
 
 <head>
-    <metahttp-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>‰¹Šy¶¬</title>
+    <title>éŸ³æ¥½ç”Ÿæˆ</title>
 	 <link rel="shortcut icon" href="image/nazobu.jpg" >
-	<!-- jQuery–{‘Ì‚Ì“Ç‚İ‚İ -->
-	 <link rel="stylesheet" href="index.css"@type="text/css" media="all">
+	<!-- jQueryæœ¬ä½“ã®èª­ã¿è¾¼ã¿ -->
+	 <link rel="stylesheet" href="index.css"ã€€type="text/css" media="all">
 	 <script src="index.js" defer></script>
 
-<!-- ”ƒŠƒ“ƒN‚ÌƒXƒ€[ƒYƒXƒNƒ[ƒ‹ -->
+<!-- ï¼ƒãƒªãƒ³ã‚¯ã®ã‚¹ãƒ ãƒ¼ã‚ºã‚¹ã‚¯ãƒ­ãƒ¼ãƒ« -->
 <script>
 $(function(){
-   // #‚Ån‚Ü‚éƒŠƒ“ƒN‚ğƒNƒŠƒbƒN‚µ‚½‚çÀs‚³‚ê‚Ü‚·
+   // #ã§å§‹ã¾ã‚‹ãƒªãƒ³ã‚¯ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ãŸã‚‰å®Ÿè¡Œã•ã‚Œã¾ã™
    $('a[href^=#]').click(function() {
-      // ƒXƒNƒ[ƒ‹‚Ì‘¬“x
-      var speed = 400; // ƒ~ƒŠ•b‚Å‹Lq
+      // ã‚¹ã‚¯ãƒ­ãƒ¼ãƒ«ã®é€Ÿåº¦
+      var speed = 400; // ãƒŸãƒªç§’ã§è¨˜è¿°
       var href= $(this).attr("href");
       var target = $(href == "#" || href == "" ? 'html' : href);
       var position = target.offset().top;
@@ -31,10 +31,10 @@ $(function(){
 <body>
 
 <div class="main">
-	<p class="bun">‰º‹L‚ÌƒeƒLƒXƒgƒ{ƒbƒNƒX‚É</p>
-	<p class="bun">©—R‚Èƒvƒƒ“ƒvƒg‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B</p>
-	<p class="bun">“ü—Í‚³‚ê‚½“à—e‚ğ‚à‚Æ‚ÉA</p>
-	<p class="bun">©“®‚ÅAI‚ª‰¹Šy‚ğ¶¬‚µ‚Ü‚·B</p>
+	<p class="bun">ä¸‹è¨˜ã®ãƒ†ã‚­ã‚¹ãƒˆãƒœãƒƒã‚¯ã‚¹ã«</p>
+	<p class="bun">è‡ªç”±ãªãƒ—ãƒ­ãƒ³ãƒ—ãƒˆã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚</p>
+	<p class="bun">å…¥åŠ›ã•ã‚ŒãŸå†…å®¹ã‚’ã‚‚ã¨ã«ã€</p>
+	<p class="bun">è‡ªå‹•ã§AIãŒéŸ³æ¥½ã‚’ç”Ÿæˆã—ã¾ã™ã€‚</p>
 </div>
 
 <div class="nyuryoku">
@@ -42,12 +42,12 @@ $(function(){
 	<textarea name="comment" cols="40" rows="8"></textarea >
 	</p>
 	<p class="bun">
-	<input type="button" value="¶¬‚·‚é" onclick="tbox1()">
+	<input type="button" value="ç”Ÿæˆã™ã‚‹" onclick="tbox1()">
 	</p>
 
 <script>
 function tbox1(){
-var res = confirm("‚±‚Ì“à—e‚Å‰¹Šy‚ğ¶¬‚µ‚Ü‚·‚©H");
+var res = confirm("ã“ã®å†…å®¹ã§éŸ³æ¥½ã‚’ç”Ÿæˆã—ã¾ã™ã‹ï¼Ÿ");
      if ( res == true ){
 	 window.location.href = "loading.html";
      }else{

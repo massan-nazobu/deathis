@@ -2,15 +2,15 @@ body {
 background: #000000;
 font-family:sans-serif;
 color: #ffffff;
-margin-top: 5%;
+margin-top: 25%;
 text-align: center;
 }
 
 
 .sk-circle {
-  width: 50px; /* ƒTƒCƒY - ‰Â•Ï */
-  height: 50px; /* ƒTƒCƒY - ‰Â•Ï */
-  margin: 0 auto; /* ã‰ºƒ}[ƒWƒ“ - ‰Â•Ï */
+  width: 50px; /* ã‚µã‚¤ã‚º - å¯å¤‰ */
+  height: 50px; /* ã‚µã‚¤ã‚º - å¯å¤‰ */
+  margin: 0 auto; /* ä¸Šä¸‹ãƒãƒ¼ã‚¸ãƒ³ - å¯å¤‰ */
   position: relative;
 }
 .sk-circle .sk-child {
@@ -26,7 +26,7 @@ text-align: center;
   margin: 0 auto;
   width: 15%;
   height: 15%;
-  background-color: #ffffff; /* ƒx[ƒX‚ÌF - ‰Â•Ï */
+  background-color: #ffffff; /* ãƒ™ãƒ¼ã‚¹ã®è‰² - å¯å¤‰ */
   border-radius: 100%;
   -webkit-animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;
           animation: sk-circleBounceDelay 1.2s infinite ease-in-out both;

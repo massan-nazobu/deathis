@@ -2,10 +2,12 @@ body {
 background: #000000;
 font-family:sans-serif;
 color: #ffffff;
-margin-top: 25%;
 text-align: center;
 }
 
+.main {
+  margin-top: 25%;
+}
 
 .sk-circle {
   width: 50px; /* サイズ - 可変 */
